@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns='http://ns.saxonica.com/xslt/export' xmlns:fn='http://www.w3.org/2005/xpath-functions' xmlns:java-type='http://saxon.sf.net/java-type' xmlns:vv='http://saxon.sf.net/generated-variable' xmlns:xs='http://www.w3.org/2001/XMLSchema' when='2023-07-18T18:10:01.5330506+02:00' expiry='2024-01-26' id='0' version='30' packageVersion='1' saxonProduct='SAXON-EE' saxonVersion='12.3' buildDateTime='2023-07-18T18:10:01.5330506+02:00' target='HE' targetVersion='1' relocatable='true' implicit='true'>
+ <co id='0' vis='PUBLIC' binds=''>
+  <function name='Q{http://example.com/mf}eval' line='15' module='exposeXslEvaluate.xsl' flags='pU' as='*' slots='1'>
+   <arg name='Q{}expression' as='1AS'/>
+   <evaluate role='body' ns='mf=http://example.com/mf xs=~ xsl=~ xml=~' line='17' dxns=''>
+    <varRef role='xpath' name='Q{}expression' slot='0'/>
+    <empty role='cxt'/>
+    <str role='sa' val='no'/>
+    <map role='options' size='0'/>
+    <map role='wp' size='0'/>
+   </evaluate>
+  </function>
+ </co>
+ <co id='1' vis='PUBLIC' binds=''>
+  <function name='Q{http://example.com/mf}eval' line='8' module='exposeXslEvaluate.xsl' flags='pU' as='*' slots='3'>
+   <arg name='Q{}expression' as='1AS'/>
+   <arg name='Q{}context-item' as='?'/>
+   <arg name='Q{}params' as='1FM k[AQ]'/>
+   <evaluate role='body' ns='mf=http://example.com/mf xs=~ xsl=~ xml=~' line='12' dxns=''>
+    <varRef role='xpath' name='Q{}expression' slot='0'/>
+    <varRef role='cxt' name='Q{}context-item' slot='1'/>
+    <str role='sa' val='no'/>
+    <map role='options' size='0'/>
+    <varRef role='wp' name='Q{}params' slot='2'/>
+   </evaluate>
+  </function>
+ </co>
+ <co id='2' vis='PUBLIC' binds=''>
+  <function name='Q{http://example.com/mf}eval' line='20' module='exposeXslEvaluate.xsl' flags='pU' as='*' slots='2'>
+   <arg name='Q{}expression' as='1AS'/>
+   <arg name='Q{}context-item' as='?'/>
+   <evaluate role='body' ns='mf=http://example.com/mf xs=~ xsl=~ xml=~' line='23' dxns=''>
+    <varRef role='xpath' name='Q{}expression' slot='0'/>
+    <varRef role='cxt' name='Q{}context-item' slot='1'/>
+    <str role='sa' val='no'/>
+    <map role='options' size='0'/>
+    <map role='wp' size='0'/>
+   </evaluate>
+  </function>
+ </co>
+ <co id='3' binds=''>
+  <mode onNo='TC' flags='dWe' patternSlots='0'/>
+ </co>
+ <overridden/>
+ <output>
+  <property name='Q{http://saxon.sf.net/}stylesheet-version' value='30'/>
+ </output>
+ <decimalFormat/>
+</package>
+<?Σ e84370b7?>
